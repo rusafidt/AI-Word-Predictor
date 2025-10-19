@@ -5,6 +5,8 @@ from app.core.config import settings
 from app.services.model_service import service
 from app.storage.state import save_state
 
+import os
+
 app = FastAPI(
     title="AI Word Predictor (Trigram LM)",
     description="FastAPI service for next-word prediction with automatic persistence.",
