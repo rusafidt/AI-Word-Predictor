@@ -97,9 +97,11 @@ ai-word-predictor/
 
 ---
 
-## 🎨 Features
+## 
 
-### Core Features
+**Frontend**: [AI-Word-Predictor Link]()
+
+## 🎨 Features
 
 • ✅ Learns language patterns via N-gram modeling  
 • ✅ Automatically saves progress after each training  

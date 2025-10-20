@@ -4,7 +4,7 @@ export async function POST(request: NextRequest) {
   try {
     const body = await request.json()
 
-    const apiUrl = process.env.NEXT_PUBLIC_API_BASE_URL
+    const apiUrl = process.env.API_BASE_URL
     if (!apiUrl) {
       return NextResponse.json({ error: "API base URL not configured" }, { status: 500 })
     }
