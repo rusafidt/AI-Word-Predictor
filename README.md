@@ -32,11 +32,11 @@ Built with **FastAPI**, this project uses an **N-gram Language Model (Trigram)**
 
 ### Backend (FastAPI)
 
--> Python 3.11+ with FastAPI framework
--> Trigram (N-gram) Language Model for learning and predicting
--> Automatic saving & reloading of model state
--> CORS enabled for frontend or API testing tools
--> Interactive API docs via Swagger UI
+-> Python 3.11+ with FastAPI framework  
+-> Trigram (N-gram) Language Model for learning and predicting  
+-> Automatic saving & reloading of model state  
+-> CORS enabled for frontend or API testing tools  
+-> Interactive API docs via Swagger UI  
 
 ---
 
@@ -69,10 +69,10 @@ curl -X POST "http://localhost:8000/predict" \
 
 ## 🧠 Model Behavior
 
-• Uses a Trigram (3-word context) to estimate next-word probabilities
-• Applies Laplace smoothing to handle unseen words
-• Automatically saves after training and reloads on startup
-• Learns cumulatively — the more text you train, the smarter it gets!
+• Uses a Trigram (3-word context) to estimate next-word probabilities  
+• Applies Laplace smoothing to handle unseen words  
+• Automatically saves after training and reloads on startup  
+• Learns cumulatively — the more text you train, the smarter it gets!  
 
 ---
 
@@ -101,9 +101,9 @@ ai-word-predictor/
 
 ### Core Features
 
-• ✅ Learns language patterns via N-gram modeling
-• ✅ Automatically saves progress after each training
-• ✅ Predicts top-k next words with probabilities
-• ✅ Fast and lightweight (no external ML dependencies)
-• ✅ Easy to deploy on Render, Railway, or any VPS
-• ✅ Swagger UI for easy testing
+• ✅ Learns language patterns via N-gram modeling  
+• ✅ Automatically saves progress after each training  
+• ✅ Predicts top-k next words with probabilities  
+• ✅ Fast and lightweight (no external ML dependencies)  
+• ✅ Easy to deploy on Render, Railway, or any VPS  
+• ✅ Swagger UI for easy testing  
