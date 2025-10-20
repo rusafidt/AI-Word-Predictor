@@ -12,6 +12,9 @@ export async function POST(request: NextRequest) {
       return NextResponse.json({ error: "API base URL not configured" }, { status: 500 })
     }
 
+    console.log("API_BASE_URL_1111:", apiUrl);
+
+
     const response = await fetch(`${apiUrl}/train`, {
       method: "POST",
       headers: {
