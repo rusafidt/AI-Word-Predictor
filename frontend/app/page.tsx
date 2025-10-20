@@ -4,6 +4,7 @@ import { TrainSection } from "@/components/train-section"
 import { PredictSection } from "@/components/predict-section"
 import { Brain, Sparkles } from "lucide-react"
 
+
 export default function Home() {
   return (
     <div className="min-h-screen bg-gradient-to-b from-background via-background to-secondary/20">
